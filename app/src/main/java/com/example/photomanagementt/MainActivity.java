@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void Activity2(){
-        Intent intent = new Intent(this, CameraActivity.class);
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivity(intent);
     }
 
